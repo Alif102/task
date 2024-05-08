@@ -1,0 +1,125 @@
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* .main-container{
+    overflow-x: hidden;
+} */
+.containerr {
+    width: 100%; /* Full width for large screens */
+    max-width: 1728px; /* Maximum width for large screens */
+    height: 68px;
+    background-color: #F1F1F1;
+    overflow-x: hidden;
+}
+
+.first-layout {
+    width: 250px;
+    height: 758px;
+    background-color: #FFF;
+    box-shadow: 0px 5px 12.9px 0px rgba(0, 0, 0, 0.10);
+}
+
+.first-column {
+    width: 226px;
+    height: 92px;
+    background-color: #D9D9D9;
+}
+
+.second-column {
+    width: 160px;
+    height: 600px;
+    background-color: #D9D9D9;
+}
+
+.second-layout {
+    width: 1728px;
+    height: 1300px;
+    background-color: #FFF;
+}
+
+.nav-layout {
+    width: 1728px;
+    height: 1300px;
+    background-color: #FFF;
+}
+.navbar {
+    display: flex;
+
+    gap: 6px;
+}
+
+.nav-item {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.box-1{
+    width: 673px;
+    height: 369px;
+    background: #D9D9D9;
+}
+.box-2{
+    width: 345px;
+    height: 469px;
+    background: #D9D9D9;
+}
+.box-text1{
+    color: #000;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.rotate-div {
+    width: 160px;
+    height: 1033px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+
+    .box-text {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        }
+.box{
+    width: 121px;
+height: 79px;
+background: #fff;
+}
+
+/* Responsive breakpoints for tablets and mobile screens */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 1rem; /* Add some padding on tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 48px; /* Adjust height for mobile screens */
+    }
+    .first-layout {
+        width: 250px;
+        height: 100px;
+        /* margin: 0 auto; */
+       
+    }
+    .main-container{
+        overflow-x: hidden;
+    }
+    
+
+    
+ 
+}
